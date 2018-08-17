@@ -1,2 +1,1 @@
-# python-programs-on-tkinter-module
-This is a simple calculator program (in Python3) to perform basic arithmetic operations.
+This is a simple calculator program to perform basic arithmetic operations.It is created using tkinter module in python.
