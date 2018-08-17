@@ -6,12 +6,9 @@ calc=Tk()
 calc.title("Calculator")
 calc.resizable(width=False,height=False)
 
-#def msg():
-#    tkinter.messagebox.showinfo('using calculator:',"this is a simple calculator.Just press the desired buttons to perform the required actions!!!")
 
-
-n=0.0
-op=''
+n=0.0                                                            #global variable to store previous entered value
+op=''                                                            #global variable to store the operator clicked by user
 def click(num):
     global n
     if(num!='AC'):
@@ -21,6 +18,7 @@ def click(num):
     else:
         inp.delete(0,"end")
         n=0.0
+        
 def operator(x):
     global n
     global op
